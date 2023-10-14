@@ -17,12 +17,12 @@ Code for this can be found in `auth_guide.py`
 1. Request code from Strava 
 2. Use this code to generate an access token and a refresh token 
 
-*Refreshing a token*
-Code for this step can be found in `utilities.py`
+*Refreshing a token*: Code for this step can be found in `utilities.py`
+
 3. Keep the refresh token so that when the access token expires you can fetch a new one 
 
-*Subscribing to webhooks*
-This step shows you how to set up your server url to handle incoming requests (like when an event is uploaded). 
+*Subscribing to webhooks*: This step shows you how to set up your server url to handle incoming requests (like when an event is uploaded). 
+
 Code for this step can be found in `push_guide.py`
 1. Send a post request to Strava's push subscription website to initialize a subscription 
 2. Configure your server to handle the challenge & respond 
