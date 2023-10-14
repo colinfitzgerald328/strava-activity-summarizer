@@ -1,6 +1,7 @@
 # strava-activity-summarizer
 A quick app to summarize my strava activities as they are uploaded
 
+![Screenshot 2023-10-14 at 10 17 37 AM](https://github.com/colinfitzgerald328/strava-activity-summarizer/assets/64982557/0df80a9b-3cb3-444e-b8b1-9128726ccda6)
 
 How this works: 
 
