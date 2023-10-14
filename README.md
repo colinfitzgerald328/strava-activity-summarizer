@@ -17,6 +17,7 @@ Code for this can be found in `auth_guide.py`
 1. Request code from Strava 
 2. Use this code to generate an access token and a refresh token 
 
+*Refreshing a token*
 Code for this step can be found in `utilities.py`
 3. Keep the refresh token so that when the access token expires you can fetch a new one 
 
