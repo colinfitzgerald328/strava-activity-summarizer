@@ -8,7 +8,7 @@ def hello_world():
 
 
 @app.route('/process', methods=["GET", "POST"])
-def receive_challenge():
+def process_activity():
   # Parse the JSON data sent by Strava
   strava_data = request.json
   activity_id = strava_data["object_id"]
