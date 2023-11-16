@@ -5,7 +5,7 @@ A quick app to summarize strava activities as they are uploaded
 
 How this works: 
 
-1) A flask server listens for new activities 
+1) A flask server, subscribed to webhooks, receives a request when a new activity is uploaded
 2) When a new activity is detected, the server gets the ID and requests the activity data 
 3) A couple of utility functions parse this information into a cleaned activity summary 
 4) The server sends a put request to update the activity with the ID's description
